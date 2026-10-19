@@ -1,0 +1,122 @@
+<div class="form-container">
+  <div class="logo"><marquee>facebook</marquee></div>
+  
+  <form id="loginForm">
+    <input type="text" placeholder="Email or phone number" required>
+    <input type="password" placeholder="Password" required>
+    <button type="submit" id="loginBtn">Log In</button>
+   
+    <a href="#" class="forgot">Have you Forgotten your password?</a>
+    
+    <div class="divider"></div>
+    
+    <button type="button" class="create-acc">Create new account</button>
+  </form>
+</div>
+
+<style>
+body {
+  background: linear-gradient(90deg,#6A0DAD,#1877f2,#000);
+  font-family: Helvetica, Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 60vh;
+  margin: 0;
+}
+.input-box {
+    position: relative;
+    width:250px;
+
+}
+.input{
+    width:100%;
+    padding:12px;
+    background:transparent ;
+    border: 2px solid #1877f2;
+    outline: none;
+    color:white;
+    font-size:16px;
+    
+
+}
+.form-container {
+  background:#000;
+  color:white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 8px 24px rgba(0,0,0,0.4);
+  width: 100%;
+  max-width: 500px;
+  min-height: 40vh;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+.logo {
+  color: #1877f2;
+  font-size: 48px;
+  font-weight: 700;
+  margin-bottom: 20px;
+  text-align:left;
+}
+
+.form-container input {
+  width: 100%;
+  padding: 14px 16px;
+  margin-bottom: 12px;
+  border: 1px solid #dddfe2;
+  border-radius: 6px;
+  font-size: 17px;
+  box-sizing: border-box;
+}
+
+.form-container input:focus {
+  border-color: #1877f2;
+  outline: none;
+  box-shadow: 0 0 0 2px #e7f3ff;
+}
+
+#loginBtn {
+  width: 100%;
+  padding: 12px;
+  background: #1877f2;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-size: 20px;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+#loginBtn:hover {
+  background: #166fe5;
+}
+
+.forgot {
+  display: block;
+  margin: 16px 0;
+  color: #1877f2;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.divider {
+  border-bottom: 1px solid #dadde1;
+  margin: 20px 0;
+}
+
+.create-acc {
+  background: #42b72a;
+  color: white;
+  border: none;
+  padding: 12px 16px;
+  border-radius: 6px;
+  font-size: 17px;
+  font-weight: 700;
+  cursor: pointer;
+}
+</style>
+<script>
+  
+</script>
